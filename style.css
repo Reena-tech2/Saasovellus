@@ -1,0 +1,64 @@
+/*
+     em    -relative to font-size of element(2en = 2x font size)
+ex         -relative to x-height of the current font
+ch  -      -relative to the width of "0".
+    rem    -relative to the font size of the root element.
+ vw        -relative to 1 % of viewport width.
+ vh        -relative to 1 % of viewport height.
+ vmin      -relative to 1% of smaller dimensions.
+ vmax      -relative to 1% of larger dimensions.
+ %         -relative to parent element
+ px        -pixels 
+ */
+
+ body {
+ background-image:url("https://static.vecteezy.com/system/resources/previews/012/494/383/original/types-of-weather-conditions-with-sunny-cloudy-windy-rainy-snow-and-stormy-in-template-hand-drawn-cartoon-flat-illustration-vector.jpg");
+ background-size: auto;
+}
+
+
+
+ label{
+    display:block ;
+    margin-bottom:5px;
+    margin-top: 20px;
+
+ }
+
+ button{
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 80px;
+ }
+ 
+ input{
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+ }
+ /*box-sizing: border-box -> Padding and border included in the size of the element, if possible'*/
+
+.weather_icon img {
+    width: 64px;
+ 
+ }
+ #weather{
+margin-top: 1rem;
+ }
+
+ main{
+   height :300px;
+   background-color:skyblue;
+   border:2px solid black;
+   font-family: sans-serif;
+   max-width: 300px;
+   max-height: 600px;
+   margin: 4rem auto;
+   padding: 0 1rem;
+ }
+ 
